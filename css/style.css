@@ -1,0 +1,87 @@
+/* antic-regular - latin */
+/* bellota-regular - latin_cyrillic */
+@font-face {
+    font-family: 'Bellota';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/bellota-v4-latin_cyrillic-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/bellota-v4-latin_cyrillic-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+body
+{
+    margin: 0;
+    padding: 0;
+    
+    font-family: 'Bellota';
+}
+
+.wrapper
+{
+    max-width: 1200px;
+    margin: 0 auto;
+    /* background-color:#eae5e1; */
+}
+
+.header-wrapper
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-wrapper-left
+{
+    width: 100%;
+    text-align: center;
+}
+
+.header-title
+{
+    font-size: 3em;
+    color:#2e5773;
+}
+.background-color-dark{
+    background-color: #2e5773;
+}
+
+.background-color-main{
+    background-color: #eae5e1;
+}
+
+/* меню */
+.nav-wrapper
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    height: 50px;
+    align-items: center;
+    /* background-color: #2e5773; */
+}
+.nav-ul
+{
+    list-style: none;
+}
+nav a
+{
+    color: cornsilk;
+    text-decoration: none;
+}
+
+.section-hidden
+{
+    display: none;
+}
+/* не используется */
+.verticaltext
+{
+    -webkit-transform: rotate(270deg);
+    -ms-transform: rotate(270deg); 
+    transform: rotate(270deg);
+    width: 420px;
+    position: fixed;
+    top: 0;
+    left: -190px;
+}
